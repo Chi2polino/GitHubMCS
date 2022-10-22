@@ -84,3 +84,8 @@ p {
     color:firebrick;
     align-items: center;
 }
+
+
+a:hover {
+    color: red;
+}
