@@ -21,6 +21,7 @@ h1, h2 {
 a:link {
     display: block;
     color: blue;
+    text-decoration: none;
 }
 
 a:visited {
@@ -29,4 +30,8 @@ a:visited {
 }
 a:hover {
     color: red;
+}
+
+.footer {
+    text-align: right;
 }
