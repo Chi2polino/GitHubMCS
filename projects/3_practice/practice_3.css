@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    width: auto;
+    height: 100px;
+    color: firebrick;
+    background-color: lightblue;
+    
+}
+
+.header {
+    width: 500px;
+    margin-left: 50px;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+}
+
+.name {
+    border: 2px solid firebrick;
+    border-radius: 5px;
+}
+
+.img {
+    width:auto;
+    height: 500px;
+    background-image: url(https://i.artfile.me/wallpaper/05-12-2018/1920x1080/kosmos-astronavty-kosmonavty-kosmonavt-1419446.jpg);
+    background-size: cover;
+    background-position: 0 30cm;
+}
+
+.links-container {
+    width: auto;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 25px;
+}
+
+h1, a {
+    color: firebrick;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 70px;
+    font-size: 50px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin: 70px;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-item {
+    display: flex; 
+    height: 100px;
+    padding: 20px;
+}
+
+.tele,
+.year {
+    margin-left: auto;
+}
+
+.year {
+    font-size: 36px;
+    color:firebrick;
+    align-items: center;
+}
