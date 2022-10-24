@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    height:auto;
+    font-family: Arial;
+    letter-spacing: 0.05em;
+}
+
+.header {
+    width: 1440px;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+.header-item {
+    color: #e50043;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.links > li {
+    text-decoration: none;
+    display: inline;
+    margin-right: 25px; 
+}
+
+.links > li:last-of-type {
+    margin-right: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 950px;
+    width: 1440px;
+    background-size: cover;
+    background-image: url(images/evian_origins_logo.png);
+    position: absolute;
+    top: 140px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: #e50043;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 1090px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    width: 1040px;
+    height: 280px;
+    margin: 150px 0;
+}
+
+.box-uno {  
+    flex-direction: column;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+p {
+    color:black;
+    font-size: 25px;
+}
+
+.bottles {
+    display: flex;
+    justify-content: space-between;
+    width: 1040px;
+    height: auto;   
+}
+
+.bottle-item {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: auto;
+}
+
+.bottle-txt {
+    margin-top: 48px;
+    text-align: center;
+}
+
+.box-dos {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 0;
+}
+
+.glass {
+    padding: 0 80px;
+}
+
+.glass-txt {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer {
+    width: 1440px;
+    height: 140px;
+    background-color: #F8BFC7;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 1090px;
+}
+
+.footer-item {
+    font-size: 50px;
+    color: white;
+    padding: 50px;
+}
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
